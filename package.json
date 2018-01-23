@@ -1,0 +1,19 @@
+{
+  "name": "ayax-common-types",
+  "version": "1.0.0",
+  "description": "Ayax Common Types for Typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maphskiy/ayax-common-types.git"
+  },
+  "author": "maphskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maphskiy/ayax-common-types/issues"
+  },
+  "homepage": "https://github.com/maphskiy/ayax-common-types#readme"
+}
