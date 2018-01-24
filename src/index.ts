@@ -8,6 +8,12 @@ import { IPagination, Pagination } from "./types/pagination/pagination";
 import { SearchRequest } from "./types/request/request";
 import { SortableField } from "./types/sortable/sortablefield";
 import { SearchResponse } from "./types/search-response/search-response";
+import { ICrudDataService } from './services/data/crud-data-service';
+import { IDataService } from './services/data/data-service';
+import { IListDataService } from './services/data/list-data-service';
+import { IRawDataService } from './services/data/raw-data-service';
+import { ISearchDataService } from './services/data/search-data-service';
+import { IHttpService } from './services/http/http-service';
 
 export {
     SelectItem,
@@ -25,5 +31,11 @@ export {
     Pagination,
     SearchRequest,
     SortableField,
-    SearchResponse
+    SearchResponse,
+    ICrudDataService,
+    IDataService,
+    IListDataService,
+    IRawDataService,
+    ISearchDataService,
+    IHttpService
 }
