@@ -14,6 +14,7 @@ import { IListDataService } from './services/data/list-data-service';
 import { IRawDataService } from './services/data/raw-data-service';
 import { ISearchDataService } from './services/data/search-data-service';
 import { IHttpService } from './services/http/http-service';
+import { IDictionaryService } from './services/dictionary/dictionary-service';
 
 export {
     SelectItem,
@@ -37,5 +38,6 @@ export {
     IListDataService,
     IRawDataService,
     ISearchDataService,
-    IHttpService
+    IHttpService,
+    IDictionaryService
 }
