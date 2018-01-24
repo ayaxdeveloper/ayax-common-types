@@ -1,8 +1,10 @@
+import { NotificationItem } from "../../index";
+
 export interface INotificationProvider {
-    Error(message?: any, dismissAfter?: number);
-    Success(message?: any, dismissAfter?: number);
-    Info(message?: any, dismissAfter?: number);
-    Warning(message?: any, dismissAfter?: number);
-    Debug(message?: any);
+    Error(message?: any, dismissAfter?: number): void;
+    Success(message?: any, dismissAfter?: number): void;
+    Info(message?: any, dismissAfter?: number): void;
+    Warning(message?: any, dismissAfter?: number): void;
+    Debug(message?: any): void;
     GetNotifications(): NotificationItem[];
 }
