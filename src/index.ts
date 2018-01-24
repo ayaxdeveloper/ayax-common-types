@@ -15,6 +15,8 @@ import { IRawDataService } from './services/data/raw-data-service';
 import { ISearchDataService } from './services/data/search-data-service';
 import { IHttpService } from './services/http/http-service';
 import { IDictionaryService } from './services/dictionary/dictionary-service';
+import { INotificationProvider } from './providers/notification/notification-provider';
+import { NotificationItem } from './types/notification-item/notification-item';
 
 export {
     SelectItem,
@@ -39,5 +41,7 @@ export {
     IRawDataService,
     ISearchDataService,
     IHttpService,
-    IDictionaryService
+    IDictionaryService,
+    INotificationProvider,
+    NotificationItem
 }
