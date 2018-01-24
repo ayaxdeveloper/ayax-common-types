@@ -7,6 +7,7 @@ import { OperationStatus, Operation, OperationResult, IOperationResult } from ".
 import { IPagination, Pagination } from "./types/pagination/pagination";
 import { SearchRequest } from "./types/request/request";
 import { SortableField } from "./types/sortable/sortablefield";
+import { SearchResponse } from "./types/search-response/search-response";
 
 export {
     SelectItem,
@@ -23,5 +24,6 @@ export {
     IPagination,
     Pagination,
     SearchRequest,
-    SortableField
+    SortableField,
+    SearchResponse
 }
