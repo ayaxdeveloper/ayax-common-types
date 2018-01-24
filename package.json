@@ -19,6 +19,8 @@
     "url": "https://github.com/maphskiy/ayax-common-types/issues"
   },
   "homepage": "https://github.com/maphskiy/ayax-common-types#readme",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
   "devDependencies": {}
 }
