@@ -4,11 +4,11 @@ export interface IClientSettings {
     listRowsPerpage: number;
 }
 
-export abstract class BaseClientSettings {
-    static systemCode: string;
-    static clientCacheExpiresAfter: number = 20;
-    static listRowsPerpage: number = 15;
-    constructor(init?: Partial<BaseClientSettings>) {
+export class ClientSettings implements IClientSettings {
+    systemCode: string;
+    clientCacheExpiresAfter: number = 20;
+    listRowsPerpage: number = 15;
+    constructor(init?: Partial<ClientSettings>) {
         if(init) {
             Object.assign(this, init)
         }
