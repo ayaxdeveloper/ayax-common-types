@@ -1,4 +1,4 @@
-import { NotificationItem } from "../../index";
+import { NotificationItem } from "../../types/notification-item/notification-item";
 
 export interface INotificationProvider {
     Error(message?: any, dismissAfter?: number): void;

@@ -1,5 +1,5 @@
 import { AxiosPromise } from "axios";
-import { OperationResult, Operation } from "../../index";
+import { OperationResult, Operation } from "../../types/operation/operation";
 
 export interface IRawDataService {
     rawGet<T>(url: string): AxiosPromise<OperationResult<T>>;
