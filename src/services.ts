@@ -1,7 +1,7 @@
 import { IHttpService } from './services/http/http-service';
 import { IDataService } from './services/data/data-service';
 import { IListDataService } from './services/data/list-data-service';
-import { IRawDataService } from './services/data/raw-data-service';
+import { IOperationService } from './services/data/operation-service';
 import { ICrudDataService } from './services/data/crud-data-service';
 import { ISearchDataService } from './services/data/search-data-service';
 import { IDictionaryService } from './services/dictionary/dictionary-service';
@@ -12,6 +12,6 @@ export {
     IDictionaryService,
     IHttpService,
     IListDataService,
-    IRawDataService,
+    IOperationService,
     ISearchDataService
 }
