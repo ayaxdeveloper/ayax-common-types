@@ -1,5 +1,7 @@
+import { guid } from "../..";
+
 export class Dictionary {
-    id: number;
+    id: number | string | guid;
     name: string;
     constructor(init?: Partial<Dictionary>) {
         if(init) {
