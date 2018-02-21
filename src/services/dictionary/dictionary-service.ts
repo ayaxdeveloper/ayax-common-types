@@ -3,5 +3,5 @@ import { SelectItem } from "../../types/select/select-item";
 
 
 export interface IDictionaryService {
-    GetDictionary<T>(name: string): Promise<T[]>;
+    GetDictionary<T>(name: string, useSearch?: boolean): Promise<T[]>;
 }
