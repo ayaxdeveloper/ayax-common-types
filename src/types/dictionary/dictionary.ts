@@ -5,6 +5,7 @@ export class Dictionary {
     name: string;
     order: number;
     isActive: boolean = true;
+    notes: string;
     constructor(init?: Partial<Dictionary>) {
         if(init) {
             Object.assign(this, init);
