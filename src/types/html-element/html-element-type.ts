@@ -1,5 +1,5 @@
 export enum HtmlElementType {
-    input, select, btn, checkbox, date, datetime, password, textarea
+    input, select, btn, checkbox, date, datetime, password, textarea, hidden
 }
 
 export class HtmlElementTypeArray {
