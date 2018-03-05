@@ -4,12 +4,10 @@ import { IListDataService } from './services/data/list-data-service';
 import { IOperationService } from './services/data/operation-service';
 import { ICrudDataService } from './services/data/crud-data-service';
 import { ISearchDataService } from './services/data/search-data-service';
-import { IDictionaryService } from './services/dictionary/dictionary-service';
 
 export { 
     ICrudDataService,
     IDataService,
-    IDictionaryService,
     IHttpService,
     IListDataService,
     IOperationService,
