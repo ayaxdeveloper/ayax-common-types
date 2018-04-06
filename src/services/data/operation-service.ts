@@ -2,6 +2,7 @@ import { AxiosPromise } from "axios";
 import { OperationResult, Operation } from "../../types/operation/operation";
 
 export interface IOperationService {
+    baseUrl: string;
     get<T>(url: string): AxiosPromise<OperationResult<T>>;
     post<T>(url: string, data: any): AxiosPromise<OperationResult<T>>;
     put<T>(url: string, data: any): AxiosPromise<Operation>;
