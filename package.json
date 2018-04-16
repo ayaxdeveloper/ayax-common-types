@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maphskiy/ayax-common-types.git"
+    "url": "git+https://github.com/ayaxdeveloper/ayax-common-types.git"
   },
-  "author": "maphskiy",
+  "author": "ayaxdeveloper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maphskiy/ayax-common-types/issues"
+    "url": "https://github.com/ayaxdeveloper/ayax-common-types/issues"
   },
-  "homepage": "https://github.com/maphskiy/ayax-common-types#readme",
+  "homepage": "https://github.com/ayaxdeveloper/ayax-common-types#readme",
   "dependencies": {
     "axios": "^0.17.1"
   },
