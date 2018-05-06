@@ -2,6 +2,7 @@ export interface IPagination {
     page: number;
     totalItems: number;
     rowsPerPage: number;
+    CheckPageIsOutOfRange(): boolean;
 }
 
 export class Pagination implements IPagination {
