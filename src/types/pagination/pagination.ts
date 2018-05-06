@@ -20,7 +20,7 @@ export class Pagination implements IPagination {
     }
 
     public CheckPageIsOutOfRange(): boolean {
-        if(this.page * this.rowsPerPage > this.totalItems) {
+        if(this.page != 1 && this.page * this.rowsPerPage > this.totalItems) {
             this.page = 1;
             return true;
         }
