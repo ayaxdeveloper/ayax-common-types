@@ -17,4 +17,10 @@ export class Pagination implements IPagination {
     public static Default(rowsPerPage: number) {
         return new Pagination({page: 1, rowsPerPage: rowsPerPage, totalItems: 0 });
     }
+
+    public CheckPageIsOutOfRange() {
+        if(this.totalItems > this.page * this.rowsPerPage) {
+            this.page = 1;
+        }
+    }
 }
