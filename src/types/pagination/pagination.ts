@@ -2,7 +2,6 @@ export interface IPagination {
     page: number;
     totalItems: number;
     rowsPerPage: number;
-    CheckPageIsOutOfRange(): boolean;
 }
 
 export class Pagination implements IPagination {
@@ -17,13 +16,5 @@ export class Pagination implements IPagination {
 
     public static Default(rowsPerPage: number) {
         return new Pagination({page: 1, rowsPerPage: rowsPerPage, totalItems: 0 });
-    }
-
-    public CheckPageIsOutOfRange(): boolean {
-        if(this.page != 1 && this.page * this.rowsPerPage > this.totalItems) {
-            this.page = 1;
-            return true;
-        }
-        return false;
     }
 }
