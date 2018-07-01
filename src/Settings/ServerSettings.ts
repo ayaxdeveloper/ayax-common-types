@@ -1,13 +1,8 @@
-export interface IServerSettings {
-    baseUrl: string;
-    apiPrefix: string;
-    tokenCheckMethod: string;
-    authenticateUrl: string;
-}
+import { IServerSettings } from "./IServerSettings";
 
 export class ServerSettings implements IServerSettings {
     baseUrl: string;
-    apiPrefix: string  = "/api";
+    apiPrefix  = "/api";
     tokenCheckMethod: string;
     authenticateUrl: string;
     constructor(init?: Partial<ServerSettings>) {

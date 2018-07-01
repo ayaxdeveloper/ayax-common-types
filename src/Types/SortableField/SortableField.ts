@@ -1,3 +1,3 @@
 export class SortableField {
-    isdesc: boolean = true;
+    isdesc = true;
 }

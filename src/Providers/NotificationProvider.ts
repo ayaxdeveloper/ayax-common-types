@@ -1,4 +1,4 @@
-import { NotificationItem } from "../types/notification-item/notification-item";
+import { NotificationItem } from "../Types/NotificationItem/NotificationItem";
 
 export interface INotificationProvider {
     notifications: NotificationItem[];

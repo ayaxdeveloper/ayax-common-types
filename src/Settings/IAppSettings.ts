@@ -1,6 +1,6 @@
-import { IServerSettings } from "./server-settings";
-import { IClientSettings } from "./client-settings";
-import { INotificationSettings } from "./notification-settings";
+import { IServerSettings } from "./IServerSettings";
+import { IClientSettings } from "./IClientSettings";
+import { INotificationSettings } from "./INotificationSettings";
 
 export interface IAppSettings {
     Server(): IServerSettings;

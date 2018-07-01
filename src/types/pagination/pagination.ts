@@ -1,8 +1,4 @@
-export interface IPagination {
-    page: number;
-    totalItems: number;
-    rowsPerPage: number;
-}
+import { IPagination } from './IPagination';
 
 export class Pagination implements IPagination {
     page: number;
@@ -14,7 +10,7 @@ export class Pagination implements IPagination {
         }
     }
 
-    public static Default(rowsPerPage: number) {
-        return new Pagination({page: 1, rowsPerPage: rowsPerPage, totalItems: 0 });
+    static Default(rowsPerPage: number) {
+        return new Pagination({page: 1, rowsPerPage, totalItems: 0 });
     }
 }

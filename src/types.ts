@@ -1,13 +1,16 @@
-import { SelectItem } from "./types/select/select-item";
+import { SelectItem } from "./types/selectitem/selectitem";
 import { guid } from "./types/guid/guid";
 import { Dictionary } from "./types/dictionary/dictionary";
-import { Entity, IEntity } from "./types/entity/entity";
-import { HtmlElementType, HtmlElementTypeArray } from "./types/html-element/html-element-type";
-import { IPagination, Pagination } from "./types/pagination/pagination";
-import { SearchRequest } from "./types/request/request";
-import { SortableField } from "./types/sortable/sortablefield";
+import { Entity } from "./types/entity/entity";
+import { IEntity } from "./types/entity/IEntity";
 import { SearchResponse } from "./types/search-response/search-response";
-import { NotificationItem } from './types/notification-item/notification-item';
+import { HtmlElementType } from './Types/HtmlElement/HtmlElementType';
+import { HtmlElementTypeArray} from './Types/HtmlElement/HtmlElementArray';
+import { IPagination } from './Types/Pagination/IPagination';
+import { Pagination } from "./Types/Pagination/Pagination";
+import { SearchRequest } from "./Types/SearchRequest/SearchRequest";
+import { SortableField } from "./Types/SortableField/SortableField";
+import { NotificationItem } from "./Types/NotificationItem/NotificationItem";
 
 export {
     SelectItem,
