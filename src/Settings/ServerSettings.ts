@@ -6,8 +6,8 @@ export class ServerSettings implements IServerSettings {
     tokenCheckMethod: string;
     authenticateUrl: string;
     constructor(init?: Partial<ServerSettings>) {
-        if(init) {
-            Object.assign(this, init)
+        if (init) {
+            Object.assign(this, init);
         }
     }
 }

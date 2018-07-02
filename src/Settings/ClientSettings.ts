@@ -1,6 +1,5 @@
 import { IClientSettings } from "./IClientSettings";
 
-
 export class ClientSettings implements IClientSettings {
     systemCode: string;
     clientCacheExpiresAfter = 20;
@@ -8,7 +7,7 @@ export class ClientSettings implements IClientSettings {
     accessRulesLocalstorageName = "accessrules";
     tokenLocalstorageName = "token";
     constructor(init?: Partial<ClientSettings>) {
-        if(init) {
+        if (init) {
             Object.assign(this, init);
         }
     }

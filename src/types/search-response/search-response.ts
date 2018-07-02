@@ -3,7 +3,7 @@ export class SearchResponse<T> {
     total: number;
 
     constructor(init?: Partial<SearchResponse<T>>) {
-        if(init) {
+        if (init) {
             Object.assign(this, init);
         }
     }

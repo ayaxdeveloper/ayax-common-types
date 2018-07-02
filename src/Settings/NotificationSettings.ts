@@ -6,7 +6,7 @@ export class NotificationSettings implements INotificationSettings {
     infoDismiss = 1000;
     warningDismiss = 3000;
     constructor(init?: Partial<NotificationSettings>) {
-        if(init) {
+        if (init) {
             Object.assign(this, init);
         }
     }

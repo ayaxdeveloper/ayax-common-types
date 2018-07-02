@@ -7,7 +7,7 @@ export class Dictionary {
     isActive = true;
     notes: string;
     constructor(init?: Partial<Dictionary>) {
-        if(init) {
+        if (init) {
             Object.assign(this, init);
         }
     }
