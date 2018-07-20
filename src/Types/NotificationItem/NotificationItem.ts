@@ -1,4 +1,4 @@
-import { guid } from "../guid/guid";
+import { Guid } from "../Guid/Guid";
 
 export class NotificationItem {
     id: string;
@@ -10,7 +10,7 @@ export class NotificationItem {
     showing: boolean;
     outline: boolean;
     public constructor(message: any, icon: string, color: string, title: string, dismissAfter: number) {
-        this.id = guid.newGuid().toString();
+        this.id = Guid.newGuid().toString();
         this.showing = true;
         this.outline = false;
         this.message = message;

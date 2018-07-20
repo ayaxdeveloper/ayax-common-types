@@ -1,5 +1,5 @@
-import { guid } from "../guid/guid";
+import { Guid } from "../Guid/Guid";
 
 export interface IEntity {
-    id: number | guid | string;
+    id: number | Guid | string;
 }

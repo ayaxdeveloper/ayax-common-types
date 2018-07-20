@@ -1,7 +1,7 @@
 import { Dictionary } from "./types/dictionary/dictionary";
 import { Entity } from "./types/entity/entity";
 import { IEntity } from "./types/entity/IEntity";
-import { guid } from "./types/guid/guid";
+import { Guid } from "./Types/Guid/Guid";
 import { HtmlElementTypeArray} from "./Types/HtmlElement/HtmlElementArray";
 import { HtmlElementType } from "./Types/HtmlElement/HtmlElementType";
 import { NotificationItem } from "./Types/NotificationItem/NotificationItem";
@@ -14,7 +14,7 @@ import { SortableField } from "./Types/SortableField/SortableField";
 
 export {
     SelectItem,
-    guid,
+    Guid,
     Dictionary,
     Entity,
     IEntity,

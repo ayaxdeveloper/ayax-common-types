@@ -1,7 +1,7 @@
-import { guid } from "../..";
+import { Guid } from "../..";
 
 export class Dictionary {
-    id: number | string | guid;
+    id: number | string | Guid;
     name: string;
     order: number;
     isActive = true;

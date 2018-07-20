@@ -1,7 +1,7 @@
-import { guid } from "../guid/guid";
+import { Guid } from "../Guid/Guid";
 
 export class SelectItem {
-    value: number | guid | string;
+    value: number | Guid | string;
     text: string;
     disabled = false;
     selected = false;
