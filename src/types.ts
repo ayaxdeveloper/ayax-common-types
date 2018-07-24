@@ -7,6 +7,10 @@ import { HtmlElementType } from "./Types/HtmlElement/HtmlElementType";
 import { NotificationItem } from "./Types/NotificationItem/NotificationItem";
 import { IPagination } from "./Types/Pagination/IPagination";
 import { Pagination } from "./Types/Pagination/Pagination";
+import { AccessProxyPropertyDecorator } from "./Types/PropertyProxy/AccessProxyPropertyDecorator";
+import { IPropertyProxy } from "./Types/PropertyProxy/IPropertyProxyT";
+import { PropertyBehavior } from "./Types/PropertyProxy/PropertyBehavior";
+import { PropertyProxy } from "./Types/PropertyProxy/PropertyProxyT";
 import { SearchResponse } from "./types/search-response/search-response";
 import { SearchRequest } from "./Types/SearchRequest/SearchRequest";
 import { SelectItem } from "./types/selectitem/selectitem";
@@ -25,5 +29,9 @@ export {
     SearchRequest,
     SortableField,
     SearchResponse,
-    NotificationItem
+    NotificationItem,
+    AccessProxyPropertyDecorator,
+    IPropertyProxy,
+    PropertyProxy,
+    PropertyBehavior
 };
