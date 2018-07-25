@@ -1,3 +1,4 @@
+import { BaseAccessProxy } from "./Types/AccessProxy/BaseAccessProxy";
 import { Dictionary } from "./types/dictionary/dictionary";
 import { Entity } from "./types/entity/entity";
 import { IEntity } from "./types/entity/IEntity";
@@ -33,5 +34,6 @@ export {
     AccessProxyPropertyDecorator,
     IPropertyProxy,
     PropertyProxy,
-    PropertyBehavior
+    PropertyBehavior,
+    BaseAccessProxy
 };
