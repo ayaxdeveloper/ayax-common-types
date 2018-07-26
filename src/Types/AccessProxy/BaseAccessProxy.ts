@@ -1,4 +1,5 @@
+import { IAccessProxy } from "./IAccessProxy";
 export abstract class BaseAccessProxy {
-    _writeable: {} = {};
-    _hidden: {} = {};
+    _writeable: IAccessProxy = {};
+    _hidden: IAccessProxy = {};
 }
