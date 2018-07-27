@@ -1,4 +1,5 @@
 import { AccessProxyBase } from "./Types/AccessProxy/AccessProxyBase";
+import { IAccessProxy } from "./Types/AccessProxy/IAccessProxy";
 import { Dictionary } from "./types/dictionary/dictionary";
 import { Entity } from "./types/entity/entity";
 import { IEntity } from "./types/entity/IEntity";
@@ -27,5 +28,6 @@ export {
     SortableField,
     SearchResponse,
     NotificationItem,
-    AccessProxyBase
+    AccessProxyBase,
+    IAccessProxy
 };
