@@ -1,4 +1,4 @@
 export * from "./Types";
 export * from "./Settings";
-export * from "./providers/NotificationProvider";
+export * from "./Providers/INotificationProvider";
 export * from "./services/IHttpService";
