@@ -1,5 +1,4 @@
 import { DefaultNotificationProvider } from "./Providers/DeafultNotificationProvider";
-import { AccessProxyBase } from "./Types/AccessProxy/AccessProxyBase";
 import { Dictionary } from "./Types/dictionary/dictionary";
 import { Entity } from "./Types/entity/entity";
 import { IEntity } from "./Types/entity/IEntity";
@@ -28,6 +27,5 @@ export {
     SortableField,
     SearchResponse,
     NotificationItem,
-    AccessProxyBase,
     DefaultNotificationProvider
 };
