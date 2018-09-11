@@ -12,6 +12,8 @@ import { SearchResponse } from "./Types/search-response/search-response";
 import { SearchRequest } from "./Types/SearchRequest/SearchRequest";
 import { SelectItem } from "./Types/selectitem/selectitem";
 import { SortableField } from "./Types/SortableField/SortableField";
+import { busyLoader } from "./Functions/BusyLoaderFunction";
+
 
 export {
     SelectItem,
@@ -27,5 +29,6 @@ export {
     SortableField,
     SearchResponse,
     NotificationItem,
-    DefaultNotificationProvider
+    DefaultNotificationProvider,
+    busyLoader
 };
