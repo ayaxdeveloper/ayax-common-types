@@ -9,5 +9,8 @@ export class SelectItem {
         if (init) {
             Object.assign(this, init);
         }
+        if (!this.value) {
+            this.value = this.text;
+        }
     }
 }
