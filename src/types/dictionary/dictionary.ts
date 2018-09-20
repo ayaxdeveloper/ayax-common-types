@@ -1,4 +1,4 @@
-import { Guid } from "../..";
+import { Guid } from "../Guid/Guid";
 
 export class Dictionary {
     id: number | string | Guid;
