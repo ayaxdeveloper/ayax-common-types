@@ -6,4 +6,5 @@ export interface IListItem extends IEntity {
     title: string;
     order: number;
     isActive: boolean;
+    notes: string;
 }
