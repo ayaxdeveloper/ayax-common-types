@@ -15,6 +15,7 @@ import { SearchResponse } from "./Types/SearchResponse/SearchResponse";
 import { SearchRequest } from "./Types/SearchRequest/SearchRequest";
 import { SelectItem } from "./Types/SelectItem/SelectItem";
 import { SortableField } from "./Types/SortableField/SortableField";
+export * from "./Types/List/IListItem";
 
 export {
     SelectItem,
