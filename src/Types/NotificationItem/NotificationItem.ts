@@ -10,6 +10,7 @@ export class NotificationItem {
     showing: boolean;
     outline: boolean;
     onClick: () => void;
+    closeAfterClick: boolean;
 
     public constructor(
         message: any,
@@ -18,6 +19,7 @@ export class NotificationItem {
         title: string,
         dismissAfter: number,
         onClick?: () => void,
+        closeAfterClick?: boolean
     ) {
         this.id = Guid.newGuid().toString();
         this.showing = true;
@@ -28,5 +30,6 @@ export class NotificationItem {
         this.dismissAfter = dismissAfter;
         this.title = title;
         this.onClick = onClick;
+        this.closeAfterClick = closeAfterClick;
     }
 }
