@@ -4,12 +4,12 @@ export class DefaultNotificationProvider implements INotificationProvider {
     constructor() {
         console.warn("Используется NotificationProvider. Все нотификации будут выведены только в консоль");
     }
-    notifications;    
+    notifications;
     Error(message?: any, title?: string, dismissAfter?: number): void {
         console.error(`${title} ${message}`);
     }
     Success(message?: any, title?: string, dismissAfter?: number): void {
-        console.log(`${title} ${message}`)
+        console.log(`${title} ${message}`);
     }
     Info(message?: any, title?: string, dismissAfter?: number): void {
         console.debug(`${title} ${message}`);

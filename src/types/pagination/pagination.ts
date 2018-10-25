@@ -6,11 +6,11 @@ export class Pagination implements IPagination {
     perPage: number;
     constructor(init?: Partial<Pagination>) {
         if (init) {
-            Object.assign(this, init); 
+            Object.assign(this, init);
         }
     }
 
     static Default(perPage: number) {
-        return new Pagination({page: 1, perPage, totalItems: 0 });
+        return new Pagination({ page: 1, perPage, totalItems: 0 });
     }
 }

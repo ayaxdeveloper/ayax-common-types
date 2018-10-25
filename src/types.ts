@@ -11,8 +11,8 @@ import { IPagination } from "./Types/Pagination/IPagination";
 import { Pagination } from "./Types/Pagination/Pagination";
 import { RouteBreadcrumbMetadata } from "./Types/RouteMetadata/RouteBreadcrumbMetadata";
 import { RouteMetadata } from "./Types/RouteMetadata/RouteMetadata";
-import { SearchResponse } from "./Types/SearchResponse/SearchResponse";
 import { SearchRequest } from "./Types/SearchRequest/SearchRequest";
+import { SearchResponse } from "./Types/SearchResponse/SearchResponse";
 import { SelectItem } from "./Types/SelectItem/SelectItem";
 import { SortableField } from "./Types/SortableField/SortableField";
 export * from "./Types/List/IListItem";
@@ -34,5 +34,5 @@ export {
     DefaultNotificationProvider,
     busyLoader,
     RouteMetadata,
-    RouteBreadcrumbMetadata
+    RouteBreadcrumbMetadata,
 };
