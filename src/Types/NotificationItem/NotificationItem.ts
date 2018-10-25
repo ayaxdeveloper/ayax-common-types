@@ -9,7 +9,7 @@ export class NotificationItem {
     icon: string;
     showing: boolean;
     outline: boolean;
-    onClick: () => void;
+    onClick: Function;
     closeAfterClick: boolean;
 
     public constructor(
@@ -18,7 +18,7 @@ export class NotificationItem {
         color: string,
         title: string,
         dismissAfter: number,
-        onClick?: () => void,
+        onClick?: Function,
         closeAfterClick?: boolean
     ) {
         this.id = Guid.newGuid().toString();

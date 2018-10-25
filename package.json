@@ -1,6 +1,6 @@
 {
     "name": "ayax-common-types",
-    "version": "3.1.4",
+    "version": "3.1.5",
     "description": "Ayax Common Types for Typescript projects",
     "main": "dist/Index.js",
     "types": "dist/Index.d.ts",
