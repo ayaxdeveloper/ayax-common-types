@@ -5,6 +5,7 @@ export class SelectItem {
     text: string;
     disabled = false;
     selected = false;
+    group: string;
     constructor(init?: Partial<SelectItem>) {
         if (init) {
             Object.assign(this, init);
