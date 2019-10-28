@@ -5,3 +5,4 @@ export * from "./Settings/NotificationSettings";
 export * from "./Settings/INotificationSettings";
 export * from "./Settings/ServerSettings";
 export * from "./Settings/IServerSettings";
+export * from "./Settings/UrlsSettings"
