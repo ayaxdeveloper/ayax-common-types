@@ -5,6 +5,7 @@ export class Dictionary {
     name: string;
     order: number;
     isActive = true;
+    isDisabled: boolean;
     notes: string;
     constructor(init?: Partial<Dictionary>) {
         if (init) {

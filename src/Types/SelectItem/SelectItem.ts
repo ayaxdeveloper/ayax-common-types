@@ -7,6 +7,7 @@ export class SelectItem {
     selected = false;
     group: string;
     className: string[];
+    loading: boolean;
     constructor(init?: Partial<SelectItem>) {
         if (init) {
             Object.assign(this, init);
